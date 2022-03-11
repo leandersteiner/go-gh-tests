@@ -11,7 +11,7 @@ func TestName(t *testing.T) {
 
 func TestNameFail(t *testing.T) {
 	name := name()
-	if name != "Leande" {
+	if name != "Leander" {
 		t.Error("Wrong name")
 	}
 }
