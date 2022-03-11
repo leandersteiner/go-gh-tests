@@ -4,7 +4,8 @@ import "testing"
 
 func TestName(t *testing.T) {
 	name := name()
-	if name != "Leander" {
+	expected := "Leander"
+	if name != expected {
 		t.Error("Wrong name")
 	}
 }
